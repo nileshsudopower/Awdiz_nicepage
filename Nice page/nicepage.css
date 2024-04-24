@@ -1,0 +1,386 @@
+*{
+    font-family:Montserrat, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parantdiv{
+    width: 100%;
+    height: 5500px;
+    margin: auto;
+}
+#navbar{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#navbar1{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    justify-content: space-between;
+}
+#devices{
+    width: 15%;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#x{
+    margin-right: 10px;
+}
+#navbar2{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    height: 55px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bodyhead{
+    width: 100%;
+    height: 800px;
+    background-image:url(./image/backgoundimg.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#background{
+background-color: #b4bd9b;
+width: 40%;
+height: 58%;
+position: absolute;
+top: 175px;
+left: 670px;
+}
+#frontground{
+    background-color: white;
+    width: 40%;
+    height: 43%;
+    position: absolute;
+    top: 240px;
+    left: 550px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 60px;
+    box-shadow: 10px 10px 20px #b4bd9b;
+}
+#frontground > :nth-child(1){
+    font-size: 24px;
+}
+#frontground > :nth-child(3){
+    font-size: 50px;
+    font-weight: lighter;
+}
+#frontground > :nth-child(5){
+    font-size: 24px;
+    color: #3d3d3d;
+}
+#bodyimg{
+    width: 87%;
+    height: 550px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+#imgdiv1{
+    height: 600px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imgdiv1 img{ 
+    height: 100%;
+    width: 100%; 
+    padding-right: 50px;
+    object-fit: cover;
+}
+#imgdiv2{
+    width: 30%;
+    height: 500px;
+    padding-left: 20px;
+    background-image: url(https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/f82f15087c19565f99555fe5/texture-min.png);
+    position: relative;
+}
+#circle{
+    width: 450px;
+    padding-left: 20px;
+    height: 450px;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url(./image/g.jpg);
+    background-size: cover;
+    top: 50px;
+    right: 40px;
+
+}
+#bodytext{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 70px;
+    
+}
+#para1{
+    width: 40%;
+    height: 320px;
+    padding-left: 25px;
+
+}
+#para2{
+    width: 40%;
+    height: 320px;
+    padding-top: 30px;
+    padding-left: 25px;
+
+}
+#text1{
+    font-size: 44px;
+    font-weight: bold;
+}
+#text2{
+    margin-top: 10px;
+    letter-spacing: 0.25px;
+}
+#text3{
+    margin-top: 30px;
+}
+.new1{
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(107, 98, 98);
+}
+#learnmore{
+    height: 50px;
+    width: 200px;
+    border-color: rgb(88, 88, 86);
+    color: #3d3d3d;
+    background-color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+#bodytext2{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    width: 16%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: #6a7c3e;
+    color: white;
+}
+.newtext1{
+    width: 80%;
+    margin-left: 10px;
+    height: 175px;
+}
+.newtext1 p{
+    font-size: 46px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+#newimg1{
+    width: 70%;
+}
+#bodytext3{
+    width: 80%;
+    margin: auto;
+}
+#latestprojecttext{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#latestprojecttext > :nth-child(1){
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#latestprojecttext > :nth-child(2){
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(107, 98, 98);
+    line-height: 2;
+}
+#lpimages{
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#new2div1{
+    width: 45%;
+    height: 700px;
+}
+
+#new2div2{
+    width: 45%;
+    height: 700px;
+}
+#image1{
+    width: 45%;
+    height: 240px;
+    float: right;
+    margin-right: 16px;
+}
+
+#image1 img{
+    width: 260px;
+    height: 240px;
+    object-fit: cover;
+}
+
+#image2{
+    width: 100%;
+    height: 450px;
+    float: right;
+    margin-top: 22px;
+}
+
+#image2 img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    margin-left: 55px;
+}
+
+#image3{
+    width: 100%;
+    height: 450px;
+    float: right;
+}
+
+#image3 img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+#image4{
+    width: 45%;
+    height: 240px;
+    float: left;
+    margin-right: 16px;
+    margin-top: 22px;
+}
+
+#image4 img{
+    width: 260px;
+    height: 240px;
+    object-fit: cover;
+}
+#bodytext4{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    display: flex;
+}
+#box1{
+    width: 100%;
+    height:230px;
+    background-color: rgb(202,209,182);
+    margin-top: 150px
+}
+#bacimgbox{
+    height: 100%;
+    width: 33%;
+    background-image: url(./image/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 294px;
+}
+#name{
+    height: 75%;
+    width: 35%;
+    background-color: white;
+    position: absolute;
+    left: 290px;
+    top: 70px;
+}
+#contactus{
+    margin: 30px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#contactus h2{
+    font-size: 45px;    
+}
+#contactus input{
+    width: 100%;
+    height: 10%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    padding-left: 10px
+}
+#contactus textarea{
+    width: 100%;
+    height: 30%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    padding-left: 10px
+}
+#contactus button{
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #6a7c3e;
+    font-weight: 500;
+    color: white;
+    border: hidden;
+    outline: hidden;
+}
+#footer{
+    margin-top: 50px;
+}
